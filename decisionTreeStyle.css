@@ -1,0 +1,48 @@
+/*!
+ * decisionTreeAggregator
+ * Copyright(c) 2024 Michael Good
+ * MIT Licensed
+ */
+
+.dte-node {
+    margin-left: 1em;
+    position: relative;
+    cursor: pointer;
+}
+.dte-node > .dte-node-content {
+    border: 1px solid #000;
+    background-color: #cccccc;
+    border-radius: 0.25em;
+    align-items: start;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+.dte-node > .dte-node-content > * {
+    margin-right: 0.5em;
+}
+.dte-node .dte-content-main {
+    display: flex;
+    flex-direction: column;
+}
+.dte-node .expand-hide-content {
+    margin-left: 0.25em;
+}
+.dte-node .remove-node,
+.dte-node .expand-hide-content {
+    border : 0px;
+    background-color: rgba(0,0,0,0);
+}
+.dte-node .dte-node-content[show="title"] .dte-options {
+    display: none;
+}
+.dte-node .remove-node {
+    margin-left: auto;
+}
+
+.dte-node [contenteditable]:focus {
+    background-color: white;
+    color: #202020;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}

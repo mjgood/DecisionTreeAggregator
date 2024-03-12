@@ -1,0 +1,62 @@
+/*!
+ * decisionTreeAggregator - demo
+ * Copyright(c) 2024 Michael Good
+ * MIT Licensed
+ */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.controls-row {
+    align-items: center;
+}
+.controls-row > :not(:last-child) {
+    margin-right : 0.5em;
+}
+
+.decision-tree-editor {
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    width: 36em;
+    margin: 1em;
+    padding: 0.5em;
+    position: relative;
+}
+#main {
+    align-items: center;
+    padding: 1em;
+}
+
+.dte-node .dte-node-content[type="filter"] {
+    background-color: #40b040;
+    color: white;
+}
+.dte-node .dte-node-content[type="item"] {
+    background-color: #8080ff;
+    color: white;
+}
+.dte-node .dte-node-content[type="list"] {
+    background-color: #6060d0;
+    color: white;
+}
+.dte-node .dte-node-content[type="condition"] {
+    background-color: #ff80ff;
+}
+
+.dte-node .dte-node-content[type="filter"] button,
+.dte-node .dte-node-content[type="item"] button,
+.dte-node .dte-node-content[type="list"] button {
+    color: transparent;
+    text-shadow: 0 0 0 white;
+}
+
+.dte-node .dte-node-content[type="condition"] button {
+    color: transparent;
+    text-shadow: 0 0 0 #202020;
+}
