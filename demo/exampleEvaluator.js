@@ -2,6 +2,9 @@
  * decisionTreeAggregator - demo
  * Copyright(c) 2024 Michael Good
  * MIT Licensed
+ *
+ * NOTE: Frequently, this kind of code would lie somewhere on a project's backend. It is evaluated on the frontend merely
+ * for example's sake.
  */
 
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
