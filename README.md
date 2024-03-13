@@ -10,3 +10,16 @@ helpful to creating a base style. Decision Trees that are created are saved and 
 transporation and storage. The 'demo' folder contains a test implementation of the Decision Tree Aggregator, as 
 well as a test parser with an example of how to rebuild the flattened JSON structure and traverse the decision
 tree.
+
+The demo implementation may be viewed live at https://htmlpreview.github.io/?https://github.com/mjgood/DecisionTreeAggregator/blob/master/demo/demo.html. 
+
+The editor in the demo works in the following way:
+<ul>
+  <li>A node type is to be chosen for a node before a new node is created.</li>
+  <li>Nodes may become sources for other nodes by clicking & dragging a node over the element to become a source node of.</li>
+  <li>Added nodes are always children of the "root" node, and must be clicked & dragged over top of another node to become child criteria.</li>
+</ul>
+In the live demo, clicking on "Load Demo Tree" will show how such an editor may work.
+
+For your own project, you would simply setup the decisionTreeEditor files comparably to how the demo sets up the decisionTreeEditor files, adding
+your own types and backend logic as needed.
