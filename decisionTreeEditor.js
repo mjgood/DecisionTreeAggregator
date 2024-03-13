@@ -144,7 +144,6 @@ const decisionTreeEditor = {
         for (let id in decisionTreeEditor.data.nodes) {
             let { parent } = decisionTreeEditor.data.nodes[id];
             if (parent != "root") {
-                console.log(parent);
                 let node = document.getElementById(`dte-node-${id}`);
                 let attatchToNode = document.getElementById(`dte-node-${parent}`);
                 attatchToNode.appendChild(node);
