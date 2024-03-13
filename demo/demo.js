@@ -22,7 +22,6 @@ const demo = {
         console.log(list);
 
         let nodeId = decisionTreeEditor.nodes.idFromElement(element);
-        console.log(nodeId);
         decisionTreeEditor.data.nodes[nodeId].list = list;
     },
 
@@ -43,8 +42,6 @@ const demo = {
     },
 
     loadTree : async function() {
-        console.log(demoModelData);
-
         decisionTreeEditor.init(document.getElementsByClassName('decision-tree-editor')[0], demoModelData.nodes);
     },
 
