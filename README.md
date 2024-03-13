@@ -11,6 +11,9 @@ transporation and storage. The 'demo' folder contains a test implementation of t
 well as a test parser with an example of how to rebuild the flattened JSON structure and traverse the decision
 tree.
 
+This project was initially created to be used in an application for quickly building & testing automated investment model strategies. However, I'm
+sure its potential use cases could extend beyond algo trading.
+
 The demo implementation may be viewed live at https://htmlpreview.github.io/?https://github.com/mjgood/DecisionTreeAggregator/blob/master/demo/demo.html. 
 
 The editor in the demo works in the following way:
