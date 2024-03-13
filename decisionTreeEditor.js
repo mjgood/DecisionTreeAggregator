@@ -22,6 +22,7 @@ const decisionTreeEditor = {
                     "id" : id,
                     "title" : `Node ${id}`,
                     "parent" : "root",
+                    "type" : type,
                     "new" : true
                 });
             }
@@ -80,6 +81,7 @@ const decisionTreeEditor = {
         
             // add this node to the provided DOM element
             element.appendChild(node);
+            return node;
         },
         idFromElement : function(element) {
             let nodeId = (element.className.split(" ").includes("dte-node") ? element.id : element.closest(".dte-node").id);
