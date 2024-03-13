@@ -15,7 +15,7 @@ This project was initially created to be used in an application for quickly buil
 sure its potential use cases could extend beyond algo trading.
 
 The demo implementation may be viewed live at https://htmlpreview.github.io/?https://github.com/mjgood/DecisionTreeAggregator/blob/master/demo/demo.html.
-It looks like this.
+It looks like this:
 
 ![demo implementation screenshot](https://raw.githubusercontent.com/mjgood/DecisionTreeAggregator/master/demo/demoScreenshot.png)
 
