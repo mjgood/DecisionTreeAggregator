@@ -19,6 +19,7 @@ The editor in the demo works in the following way:
   <li>Nodes may become sources for other nodes by clicking & dragging a node over the element to become a source node of.</li>
   <li>Added nodes are always children of the "root" node, and must be clicked & dragged over top of another node to become child criteria.</li>
 </ul>
+
 In the live demo, clicking on "Load Demo Tree" will show how such an editor may work.
 
 For your own project, you would simply setup the decisionTreeEditor files comparably to how the demo sets up the decisionTreeEditor files, adding
