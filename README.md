@@ -1,5 +1,5 @@
-Decision Tree Aggregator
-Copyright(c) 2024 Michael Good
+Decision Tree Aggregator  
+Copyright(c) 2024 Michael Good  
 MIT Licensed
 
 This is a web-based tool for building Decision Trees that iterate through multiple sources of information, and
