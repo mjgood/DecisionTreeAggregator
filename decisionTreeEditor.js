@@ -51,7 +51,6 @@ const decisionTreeEditor = {
         
             // add drag & drop listeners to this node
             node.addEventListener('dragstart', (event) => {
-                console.log(`now dragging ${node.id}`);
                 event.dataTransfer.setData('text/plain', node.id);
                 event.stopPropagation();
             });
