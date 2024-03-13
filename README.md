@@ -1,5 +1,5 @@
 Decision Tree Aggregator
-opyright(c) 2024 Michael Good
+Copyright(c) 2024 Michael Good
 MIT Licensed
 
 This is a web-based tool for building Decision Trees that iterate through multiple sources of information, and
@@ -14,7 +14,10 @@ tree.
 This project was initially created to be used in an application for quickly building & testing automated investment model strategies. However, I'm
 sure its potential use cases could extend beyond algo trading.
 
-The demo implementation may be viewed live at https://htmlpreview.github.io/?https://github.com/mjgood/DecisionTreeAggregator/blob/master/demo/demo.html. 
+The demo implementation may be viewed live at https://htmlpreview.github.io/?https://github.com/mjgood/DecisionTreeAggregator/blob/master/demo/demo.html.
+It looks like this.
+
+![demo implementation screenshot](https://raw.githubusercontent.com/mjgood/DecisionTreeAggregator/master/demo/demoScreenshot.png)
 
 The editor in the demo works in the following way:
 <ul>
